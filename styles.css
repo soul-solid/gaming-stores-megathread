@@ -1,0 +1,89 @@
+:root {
+    --bg: #55423d;
+    --bg2: #f25f4c;
+    --bg3: #ffc0ad;
+    --bg4: #140d0b;
+    --head: #fffffe;
+    --text: #a7a9be;
+    --text2: #ff8906;
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-color: var(--bg4);
+}
+
+h1 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    padding: 15px;
+    color: var(--bg3);
+    background-color: var(--bg4);
+    text-align: center;
+    
+}
+
+.container {
+    height: 100%;
+    margin: 0 20vw;
+    margin-top: 79px;
+    padding: 30px 25px;
+    color: var(--text);
+    background-color: var(--bg);
+}
+
+.container h2 {
+    margin-bottom: 10px;
+    color: var(--head);
+    font-family: "Raleway", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.7em;
+}
+
+.container p {
+    padding: 5px 20px;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.2em;
+}
+
+.container ul li {
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.2em;
+}
+
+.container .trusted ul li {
+    list-style-type: "\2747 \FE0F";
+    padding: 0 5px;
+}
+
+.container .untrusted ul li {
+    list-style-type: "\26D4";
+    padding: 0 5px;
+}
+
+.container ul li a {
+    text-decoration: none;
+    color: var(--text);
+}
+
+.container ul li a:hover {
+    color: var(--text2);
+}
+
+.container hr {
+    margin: 20px auto;
+}
